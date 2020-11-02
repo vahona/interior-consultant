@@ -11,19 +11,33 @@
 <body>
   <header class="interiority">
     <h3 class="interiority__logo">
-      <button>The interior</button>
+      <button class="interiority__button">The interior</button>
     </h3>
-    <nav class="interiority__navigation">
-      <ul class="interiority__list">
-        <li class="interiority__list__link"><a class="interiority__link" href="/home" >Home</a></li>
-        <li class="interiority__list__link"><a class="interiority__link" href="/collection">Collection</a></li>
-        <li class="interiority__list__link"><a class="interiority__link" href="/about">About</a></li>
-        <li class="interiority__list__link"><a class="interiority__link" href="ontact">Contact</a></li>
-      </ul>
-    </nav>
+    <div>
+      <label for="check">
+        <svg fill="none" class="interiority_bar" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </label>
+      <input type="checkbox" id="check" class="links">
+      <nav class="interiority__navigation">
+        <label for="close">
+          <button class="button_close">X</button>
+        </label>
+        <input type="checkbox" id="check" class="close">
+        <ul class="interiority__list">
+          <li class="interiority__list__link "><a class="interiority__link home" href="/home">Home</a></li>
+          <li class="interiority__list__link "><a class="interiority__link collection" href="/collection">Collection</a>
+          </li>
+          <li class="interiority__list__link "><a class="interiority__link about" href="/about">About</a></li>
+          <li class="interiority__list__link "><a class="interiority__link contact" href="ontact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="interiority__main">
-    <h1 class="interiority__main__title" >Modern Interior</h1>
+    <h1 class="interiority__main__title">Modern Interior</h1>
     <p class="interiority__main__paragraph">
       A full-service residenciel & commercial interior desing and staging company offering professional organizing
       & eco-services
@@ -31,14 +45,19 @@
     <a class="interiority__main__link--read" href="/">Read more →</a>
     <img class="interiority__main__image" src="./images/photo1.png" />
     <article class="interiority__main__article">
-      <a class="interiority__main__article--link" href="/"><img class="interiority__main__article--profile" src="./images/photo2.png" /></a>
-      <h5 class="interiority__main__article--name"> Aliza webber </h5>
-      <p class="interiority__main__article--job">Interior designer</p>
+      <div>
+        <a class="interiority__main__article--link" href="/"><img class="interiority__main__article--profile"
+            src="./images/photo2.png" /></a>
+        <h5 class="interiority__main__article--name"> Aliza webber </h5>
+        <p class="interiority__main__article--job">Interior designer</p>
+      </div>
       <h3 class="interiority__main__article--date">Designer in 2020 by Aliza webber</h3>
     </article>
   </main>
   <footer class="interiority__footer">
+    <div class="interiority__footer__container">
     <p class="interiority__footer__paragraph">Your name @ DevChallenges.io</p>
+    <div>
   </footer>
 
 </body>

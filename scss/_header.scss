@@ -1,0 +1,91 @@
+.interiority {
+   padding: 2rem;
+    
+}
+
+
+.interiority__button {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: CrimsonPro;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.interiority__list {
+  list-style: none;
+  
+}
+
+.interiority__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+
+.home {
+  font-weight: 700;
+}
+
+.interiority__list {
+  // display: flex;
+}
+
+.interiority__list__link {
+  padding: 1.5rem;
+}
+
+.interiority_bar {
+  width: 30px;
+  height: 30px;
+  top: 1rem;
+  right: 1rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.interiority__navigation {
+  // left: -200px;
+  // position: fixed;
+  // background-color: red;
+  width: 200px;
+}
+
+.links {
+  zoom: 2;
+  top: 0.5rem;
+  right: 0.5rem;
+  // opacity: 0;
+  position: absolute;
+  
+} 
+
+.button_close {
+  background-color: transparent;
+  color: white;
+  top: 70px;
+  position: absolute;
+  right: 280px;
+  border: none;
+}
+
+.close {
+  zoom: 1.25;
+  top: 50px;
+  position: absolute;
+  right: 220px;
+}
+
+// input[type=checkbox]:not(:checked) + .interiority__navigation {
+//   transform: translateX(-100%);
+//   transition: all 0.5s ease-out;
+//   right: -100px;
+// }
+
+// input[type=checkbox]:not(:checked) + .interiority__navigation {
+//   transform: translateX(100%);
+//   transition: all 0.5s ease-in;
+//   right: -100px;
+// }

@@ -1,0 +1,105 @@
+
+.interiority__main {
+  position: relative;
+}
+
+.interiority__main__title {
+    font-family: Lora;
+    line-height: 61.44px;
+    font-size: 48px;
+    font-weight: 400;
+    padding: 2rem;
+}
+
+.interiority__main__paragraph {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17.07px;
+    padding: 2rem;
+}
+
+.interiority__main__article {
+  width: 65%;
+  height: 30%;
+}
+
+.interiority__main__link--read {
+    color: white;
+    font-family:Montserrat;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 21.94px;
+    padding: 2rem;
+    
+}
+
+.interiority__main__image {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.interiority__main__paragraph {
+  max-width: 250px;
+  max-height: 80px;
+}
+
+
+
+.interiority__main__article--profile {
+    border-radius: 50%;
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-top: 5px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+
+.interiority__main__article--name {
+    color: #ffff;
+    font-family: Montserrat ;
+    font-weight: 500;
+    line-height: 17.07px;
+    margin-top: 20px;
+    margin-block-end: 0;
+    margin-block-start: 1rem; 
+    padding-top: 1.5rem;  
+}
+
+.interiority__main__article {
+    // padding: 1rem;
+    position: absolute;
+    right: 10%;
+    bottom: -8%;
+    left: 30%;
+    background-color:  #181719;
+    
+}
+
+.interiority__main__article--job {
+
+    font-family: Montserrat;
+    font-Weight : 500;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: Gray;
+    padding: 1.5rem;
+    
+
+}
+
+
+
+.interiority__main__article--date {
+  font-family: Lora;
+  font-Weight: 700;
+  font-Size: 24px;
+  line-height: 30.72px;
+  padding: 2rem;
+  bottom: 0;
+  position: absolute;
+
+}
