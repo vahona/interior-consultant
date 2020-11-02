@@ -24,9 +24,10 @@ html {
 
 body {
   max-width: 1440px;
-  max-height: 1080px;
+  max-height: 2000px;
   margin-inline-start: auto;
-  margin-inline-end: auto; }
+  margin-inline-end: auto;
+  background-color: #181719; }
 
 main, header {
   margin-inline-end: 1rem;
@@ -49,6 +50,9 @@ footer {
 .interiority__list {
   list-style: none; }
 
+.interiority__bar__container {
+  position: relative; }
+
 .interiority__link {
   text-decoration: none;
   color: #FFFFFF;
@@ -64,18 +68,23 @@ footer {
 .interiority_bar {
   width: 30px;
   height: 30px;
-  top: 1rem;
-  right: 1rem;
+  top: -3rem;
+  right: -1rem;
   position: absolute;
   z-index: 2; }
 
 .interiority__navigation {
-  width: 200px; }
+  left: -200px;
+  position: fixed;
+  background-color: black;
+  width: 20%;
+  z-index: 2; }
 
 .links {
   zoom: 2;
   top: 0.5rem;
   right: 0.5rem;
+  opacity: 0;
   position: absolute; }
 
 .button_close {
@@ -91,6 +100,19 @@ footer {
   top: 50px;
   position: absolute;
   right: 220px; }
+
+input[type=checkbox]:not(:checked) + .interiority__navigation {
+  transform: translateX(-1000%);
+  transition: all 0.5s ease-out;
+  right: -100px; }
+
+input[type=checkbox]:checked + .interiority__navigation {
+  transform: translateX(100%);
+  transition: all 0.5s ease-in;
+  right: -100px;
+  text-align: center;
+  left: 30%;
+  position: absolute; }
 
 .interiority__main {
   position: relative; }
