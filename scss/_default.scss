@@ -11,6 +11,11 @@ body {
   margin-inline-end: auto;
 }
 
+main, header {
+  margin-inline-end: 1rem;
+  margin-inline-start: 1rem;
+}
+
 footer {
   padding: 3rem;
 }
