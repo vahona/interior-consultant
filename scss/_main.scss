@@ -19,11 +19,6 @@
    
 }
 
-.interiority__main__article {
-  width: 65%;
-  height: 30%;
-}
-
 .interiority__main__link--read {
     color: white;
     font-family:Montserrat;
@@ -72,10 +67,12 @@
 
 .interiority__main__article {
     position: absolute;
-    right: 10%;
+    right: 5%;
     bottom: -8%;
-    left: 30%;
+    left: 20%;
     background-color:  #181719;
+    width: 77%;
+    height: 30%;
     
 }
 
@@ -86,7 +83,7 @@
     font-size: 12px;
     line-height: 14.63px;
     color: Gray;
-    padding: 1.5rem;
+    // padding: 1.5rem;
     
 
 }
@@ -100,10 +97,43 @@
   font-Weight: 700;
   font-Size: 24px;
   line-height: 30.72px;
-  padding: 2rem;
   bottom: 0;
   position: absolute;
   max-width: 210px;
   max-height: 48px;
+  margin: 1rem;
+
+}
+
+@media (min-width: 1000px) {
+  .interiority__main {
+    columns: 2;
+    
+  }
+
+  .interiority__main__article {
+    right: -5%;
+    bottom: -8%;
+    left: 66%;
+    width: 30%;
+  }
+
+  .interiority__main__images {
+    
+  }
+
+  .interiority__main__image {
+
+  }
+
+  .interiority__main__article--date {
+    margin-block-start: 1rems;
+    margin: 0;
+    margin-inline-start: 1rem;
+    margin-top: 1rem;
+  }
+
+ 
+
 
 }

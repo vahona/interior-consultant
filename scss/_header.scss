@@ -15,6 +15,8 @@
 
 .interiority__list {
   list-style: none;
+  top: 0;
+  position: absolute;
   
 }
 
@@ -70,17 +72,17 @@
 .button_close {
   background-color: transparent;
   color: white;
-  top: 70px;
+  top: 1rem;
   position: absolute;
-  right: 280px;
+  right: 1rem;
   border: none;
 }
 
 .close {
   zoom: 1.25;
-  top: 50px;
+  top: 1rem;
   position: absolute;
-  right: 220px;
+  right: 1rem;
 }
 
 input[type=checkbox]:not(:checked) + .interiority__navigation {
@@ -90,11 +92,51 @@ input[type=checkbox]:not(:checked) + .interiority__navigation {
 }
 
 input[type=checkbox]:checked + .interiority__navigation {
-  transform: translateX(100%);
+  transform: translateX(0%);
   transition: all 0.5s ease-in;
   right: -100px;
   text-align: center;
-  left: 30%;
+  left: -50px;
   position: absolute;
+  top: -100px;
+  width: 134%;
+  padding-top: 100%;
+  padding-bottom: 100%;
   
+}
+
+
+
+
+@media (min-width: 1000px) {
+  .interiority__list {
+    display: flex;
+  }
+
+  .input[type=checkbox]:checked + .interiority__navigation,
+  .input[type=checkbox]:not(:checked) + .interiority__navigation {
+    transition: none;
+    right: 0;
+
+  }
+
+  .interiority__navigation {
+    right: 0;
+    background-color: transparent;
+    top: 0;
+    position: relative;
+    left: 0;
+  }
+
+  .interiority__main__container {
+    display: grid;
+    grid-template-columns: repeat(2,1rf);
+  }
+
+  .interiority__main__article {}
+
+  .interiority_bar {
+    display: none;
+  }
+
 }
