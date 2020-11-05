@@ -1,3 +1,6 @@
+
+@import "variable";
+
 html {
   background-color: #333333;
   color: white;
@@ -13,10 +16,10 @@ body {
 }
 
 main, header {
-  margin-inline-end: 1rem;
-  margin-inline-start: 1rem;
+  margin-inline-end: $margin-inline-end;
+  margin-inline-start: $margin-inline-start;
 }
 
 footer {
-  padding: 3rem;
+  padding: calc(#{$padding} * 3);
 }
