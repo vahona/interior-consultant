@@ -11,3 +11,16 @@
 .interiority__footer__container {
   border-top: 1px white solid;
 }
+
+@media (min-width: 1000px) {
+
+  .interiority__footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+  .interiority__footer__container {
+    grid-column: 2;
+  }
+
+}
