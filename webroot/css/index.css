@@ -185,7 +185,7 @@ input[type=checkbox]:checked + .interiority__navigation {
 .interiority__main__image {
   width: 100%;
   height: 100%;
-  padding-top: 2rem; }
+  padding-top: calc(1rem * 2); }
 
 .interiority__main__paragraph {
   max-width: 250px;
@@ -208,7 +208,7 @@ input[type=checkbox]:checked + .interiority__navigation {
   margin-top: 20px;
   margin-block-end: 0;
   margin-block-start: 1rem;
-  padding-top: 1.5rem; }
+  padding-top: calc(1rem * 1.5); }
 
 .interiority__main__article {
   position: absolute;
@@ -246,7 +246,7 @@ input[type=checkbox]:checked + .interiority__navigation {
     left: 66%;
     width: 30%; }
   .interiority__main__article--date {
-    margin-block-start: 1rems;
+    margin-block-start: 1rem;
     margin: 0;
     margin-inline-start: 1rem;
     margin-top: 1rem; } }
