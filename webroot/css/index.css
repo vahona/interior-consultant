@@ -39,48 +39,41 @@ footer {
 
 .interiority {
   padding: calc(1rem * 2); }
-
-.interiority__button {
-  background-color: transparent;
-  border: 1px solid #FFFFFF;
-  color: #FFFFFF;
-  font-family: CrimsonPro;
-  font-weight: 200;
-  text-transform: uppercase; }
-
-.interiority__list {
-  list-style: none;
-  top: 0;
-  position: absolute; }
-
-.interiority__bar__container {
-  position: relative; }
-
-.interiority__link {
-  text-decoration: none;
-  color: #FFFFFF;
-  font-weight: 500;
-  font-family: Montserrat; }
+  .interiority__button {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: CrimsonPro;
+    font-weight: 200;
+    text-transform: uppercase; }
+  .interiority__list {
+    list-style: none;
+    top: 0;
+    position: absolute; }
+  .interiority__bar__container {
+    position: relative; }
+  .interiority__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: Montserrat; }
+  .interiority__list__link {
+    padding: calc(1rem * 1.5); }
+  .interiority_bar {
+    width: 30px;
+    height: 30px;
+    top: calc(1rem * (-3));
+    right: calc(1rem * (-1));
+    position: absolute;
+    z-index: 2; }
+  .interiority__navigation {
+    position: fixed;
+    background-color: black;
+    width: 20%;
+    z-index: 2; }
 
 .home {
   font-weight: 700; }
-
-.interiority__list__link {
-  padding: 1.5rem; }
-
-.interiority_bar {
-  width: 30px;
-  height: 30px;
-  top: calc(1rem * (-3));
-  right: calc(1rem * (-1));
-  position: absolute;
-  z-index: 2; }
-
-.interiority__navigation {
-  position: fixed;
-  background-color: black;
-  width: 20%;
-  z-index: 2; }
 
 .links {
   zoom: 2;
