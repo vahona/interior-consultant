@@ -1,7 +1,7 @@
 @font-face {
   font-family: Montserrat;
-  src: url("/webroot/fonts/Montserrat-Regular.woff"),
-       url("/webroot/fonts/AnyConv.com__Montserrat-Regular.woff2");
+  src: url("../fonts/Montserrat-Regular.woff") format(woff),
+       url("../webroot/fonts/AnyConv.com__Montserrat-Regular.woff2") format(woff2);
 
 
 }
@@ -9,24 +9,25 @@
 
 @font-face {
   font-family: Montserrat;
-  src: url("/webroot/fonts/Montserrat-Bold.woff"),
-       url("/webroot/fonts/AnyConv.com__Montserrat-Bold.woff2");
+  src: url("../webroot/fonts/Montserrat-Bold.woff") format(woff),
+       url("../webroot/fonts/AnyConv.com__Montserrat-Bold.woff2") format(woff2);
 
 
 }
 
 @font-face {
   font-family: Lora;
-  src: url("/webroot/fonts/Lora-Regular.woff"),
-       url("/webroot/fonts/AnyConv.com__Lora-Regular.woff2");
+  font-weight: 700;
+  src: url("../webroot/fonts/Lora-Regular.woff") format("woff"),
+       url("../webroot/fonts/AnyConv.com__Lora-Regular.woff2") format(woff2);
        
 
 }
 
 @font-face {
   font-family: Lora;
-  src: url("/webroot/fonts/Lora-Bold.woff"),
-       url("/webroot/fonts/AnyConv.com__Lora-Bold.woff2");
+  src: url("../webroot/fonts/Lora-Bold.woff") format(woff),
+       url("../webroot/fonts/AnyConv.com__Lora-Bold.woff2") format(woff2);
        
 
 }
@@ -34,8 +35,8 @@
 
 @font-face {
   font-family: CrimsonPro;
-  src: url("/webroot/fonts/AnyConv.com__CrimsonPro-Regular.woff2"),
-       url("/webroot/fonts/CrimsonPro-Regular.woff");
+  src: url("../webroot/fonts/CrimsonPro-Regular.woff") format(woff),
+       url("../webroot/fonts/AnyConv.com__CrimsonPro-Regular.woff2") format(woff2);
        
 
 }
