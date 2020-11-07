@@ -1,49 +1,46 @@
 
 .interiority__main {
   position: relative;
-}
 
-.interiority__main__title {
+
+  &__title {
     font-family: Lora;
     line-height: 61.44px;
     font-size: 48px;
     font-weight: 400;
    
-}
+  }
 
-.interiority__main__paragraph {
+  &__paragraph {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 300;
     line-height: 17.07px;
    
-}
+  }
 
-.interiority__main__link--read {
+  &__link--read {
     color: white;
     font-family:Montserrat;
     text-decoration: none;
     font-weight: 600;
     line-height: 21.94px;
-   
-    
-}
 
-.interiority__main__image {
+  }
+
+  &__image {
     width: 100%;
     height: 100%;
     padding-top: calc(#{$padding-top} * 2);
-    
-}
 
-.interiority__main__paragraph {
-  max-width: 250px;
-  max-height: 80px;
-}
+  }
 
+  &__paragraph {
+    max-width: 250px;
+    max-height: 80px;
+  }
 
-
-.interiority__main__article--profile {
+  &__article--profile {
     border-radius: 50%;
     float: left;
     width: 20%;
@@ -52,9 +49,9 @@
     margin-right: $margin-right;
     margin-left: $margin-left;
 
-}
+  }
 
-.interiority__main__article--name {
+  &__article--name {
     color: #ffff;
     font-family: Montserrat ;
     font-weight: 500;
@@ -63,9 +60,10 @@
     margin-block-end: 0;
     margin-block-start: $margin-block-start; 
     padding-top: calc(#{$padding-top} * 1.5);  
-}
+  
+  }
 
-.interiority__main__article {
+  &__article {
     position: absolute;
     right: 5%;
     bottom: -8%;
@@ -74,36 +72,34 @@
     width: 77%;
     height: 30%;
     
-}
+  }
 
-.interiority__main__article--job {
+  &__article--job {
 
     font-family: Montserrat;
     font-Weight : 500;
     font-size: 12px;
     line-height: 14.63px;
     color: Gray;
-   
-    
+
+  } 
+
+
+  &__article--date {
+    font-family: Lora;
+    font-Weight: 700;
+    font-Size: 24px;
+    line-height: 30.72px;
+    bottom: 0;
+    position: absolute;
+    max-width: 210px;
+    max-height: 48px;
+    margin: $margin;
+
+  }
 
 }
 
-.interiority__main__article--container {
-
-}
-
-.interiority__main__article--date {
-  font-family: Lora;
-  font-Weight: 700;
-  font-Size: 24px;
-  line-height: 30.72px;
-  bottom: 0;
-  position: absolute;
-  max-width: 210px;
-  max-height: 48px;
-  margin: $margin;
-
-}
 
 @media (min-width: 1000px) {
   .interiority__main {
@@ -118,22 +114,12 @@
     width: 30%;
   }
 
-  .interiority__main__images {
-    
-  }
-
-  .interiority__main__image {
-
-  }
-
   .interiority__main__article--date {
     margin-block-start: $margin-block-start;
     margin: 0;
     margin-inline-start: $margin-block-end;
     margin-top: $margin-top;
   }
-
- 
 
 
 }
